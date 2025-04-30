@@ -1,6 +1,7 @@
 //JSX = Javascript + XML
 
 import Post from "./Post"
+import "./globals.css"
 
 function App() {
   

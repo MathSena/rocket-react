@@ -1,9 +1,10 @@
-import styles from './Header.module.css'
+import styles from './Header.module.css';
+import igniteLogo from '../assets/image-logo.webp';
 
-export function Header() {
+export default function Header() {
   return (
     <header className={styles.header}>
-      <strong >Ignite Feed</strong>
+      <img src={igniteLogo} alt="Logotipo do Ignite" />
     </header>
-  )
+  );
 }
